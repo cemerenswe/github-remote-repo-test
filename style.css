@@ -402,8 +402,7 @@ section {
 @media (max-width: 770px) {
     h1 {
         font-size: 44px;
-        margin-block-start: 16px;
-        margin-block-end: 16px;
+        margin: 0 16px;
     }
     
     .hero p {
@@ -429,11 +428,35 @@ section {
         font-size: 16px;
         width: 160px
     }
-        
-    
-    
 
- 
+    .section2 {
+        margin: 72px 16px
+    }
+
+    .section2 h2 {
+        margin-top: 0 
+    }
+
+    .section2 img {
+    width: 112px;
+    height: auto;
+    }
+
+    .layout {
+        flex-direction: column;
+    }
+
+    .section2 p {
+        margin-top: 8px;
+    }
+
+    .topping {
+        margin-top: 16px;
+    }
+
+    .broth {
+        margin-top: 16px;
+    }
 }
 
 
