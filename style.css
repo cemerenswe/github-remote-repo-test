@@ -522,6 +522,37 @@ section {
     .layout2 {
         margin: 0 16px; 
     }
+
+    .maps h2 {
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+
+    .maps {
+        margin-top: 72px;
+    }
+
+    .make p {
+        margin-bottom: 40px;
+    }
+
+    .make img {
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        height: 86px;
+        padding: 0 16px
+    }
+
+    .social img{
+        height: 32px;
+        width: 32px;
+    }
+
+    .logo-txt img {
+        height: 40px
+    }  
 }
 
 
