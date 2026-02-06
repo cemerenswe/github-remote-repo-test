@@ -234,9 +234,10 @@ h2 {
 }
 
 .layout2 {
-    margin: 0 160px;
+    margin: 0 16px;
     display: flex;
     flex-direction: column;
+    margin: 0 16px;
 }
 
 
@@ -457,13 +458,77 @@ section {
     .broth {
         margin-top: 16px;
     }
+
+    .menu-item {
+        flex-direction: column;
+        margin-bottom: 32px;
+        align-items: center;
+        gap: 0;
+    }
+
+    .tonkatsu {
+        margin-bottom: 16px
+    }
+
+    .menu h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .menu {
+        padding: 72px 16px;
+    }
+
+    .menu-item.second {
+    flex-direction: column;
+    }
+
+    .menu-content p {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 8px;
+        margin-top: 32px;
+    }
+
+    .alo123 p {
+        margin-top: 24px; !important
+    }
+
+    .menu-content {
+        align-items: flex-start;
+        width: 100%;
+        gap: 0;
+    }
+
+    .menu table td {
+        padding: 0;
+        flex: unset
+    }
+
+    .menu table tr {
+        padding: 0;
+        width: 100%;
+    }
+
+    .menu table tr td:first-child {
+    padding: 0;
+}
+
+    .menu-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .layout2 {
+        margin: 0 16px; 
+    }
 }
 
 
 
  
 .layout2 {
-    margin: 0 160px;
+    margin: 0 16px;
     display: flex;
     flex-direction: column;
 }
