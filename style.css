@@ -399,62 +399,41 @@ section {
 
 
 
-@media (max-width: 1024px) {
-        
-
-    .wrapper {
-        margin: 0 16px;
+@media (max-width: 770px) {
+    h1 {
+        font-size: 44px;
+        margin-block-start: 16px;
+        margin-block-end: 16px;
     }
-
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 16px;
-        height: auto;
+    
+    .hero p {
+        font-size: 16px;
     }
 
     .nav {
-        flex-direction: column;
-        gap: 12px;
-        margin-right: 0;
-        width: 100%;
+        display: none;
+    }
+    
+    .header {
+        padding: 0 16px;
+        height: 64px;
     }
 
-    .hero h1 {
-        font-size: 36px;
-        text-align: center;
+    .logo {
+        height: 40px;
+        width: 40px;
     }
 
-    .hero p {
+    .btn {
+        height: 40px;
         font-size: 16px;
-        text-align: center;
+        width: 160px
     }
+        
+    
+    
 
-    .menu-item {
-        padding-left: 0;
-        margin-bottom: 64px;
-        flex-direction: column;
-    }
-
-    .menu img {
-        width: 220px;
-        height: auto;
-    }
-
-    .section2_logo,
-    .section2_text {
-        flex-direction: column;
-        gap: 24px;
-        text-align: center;
-    }
-
-    .footer {
-        flex-direction: column;
-        align-items: center;
-        gap: 16px;
-        height: auto;
-        padding: 24px 0;
-    }
+ 
 }
 
 
