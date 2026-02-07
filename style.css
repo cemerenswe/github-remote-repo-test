@@ -584,7 +584,54 @@ section {
     .responsive-footer {
         display: none;
     }
-} 
+}
+
+@media (max-width:1280px) and (min-width: 770px) {
+    .header {
+        height: 112px;
+        padding: 0 24px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .btn {
+        font-size: 20px;
+        width: auto;
+    }
+
+    .hero h1 {
+        font-size: 72px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .section2 {
+        margin: 96px 24px;
+    }
+
+    .section2 h2 {
+        font-size: 64px;
+        margin-bottom: 48px;
+    }
+
+    .section2 p {
+        margin-top: 8px;
+        font-size: 32px;
+    }
+
+    .section2 img {
+        width: 112px;
+        height: auto;
+    }
+
+    .layout {
+        justify-content: space-between;
+    }
+}
  
 .layout2 {
     margin: 0 16px;
