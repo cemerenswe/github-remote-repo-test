@@ -631,6 +631,40 @@ section {
     .layout {
         justify-content: space-between;
     }
+
+    .menu {
+        padding: 96px 24px;
+    }
+
+    .menu h2 {
+        font-size: 64px;
+        margin-bottom: 48px;
+    }
+
+    .menu p {
+        font-size: 32px;
+    }
+
+    .menu-item {
+        gap: 0;
+    }
+
+    .menu-content {
+        gap: 0;
+    }
+}
+
+@media (max-width: 922px) {
+    .menu-item img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width: 330px) {
+    html h2{
+        font-size : 38px;
+    }
 }
  
 .layout2 {
