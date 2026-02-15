@@ -495,8 +495,7 @@ section {
     }
 
     .menu-content {
-        align-items: flex-start;
-        width: 100%;
+        align-items: center;
         gap: 0;
     }
 
