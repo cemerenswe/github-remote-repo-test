@@ -747,6 +747,7 @@ section {
     .make p {
         text-align: center;
         font-size: 20px;
+        margin-right: 50px;
     }
 
     .make {
